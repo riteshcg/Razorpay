@@ -48,4 +48,4 @@ Notes, imageurl, merchant name, purchase description, customer anme, customer em
 
 - In service class, "createRazorPayOrder" is used to get the order amount and "getRazorPay" is used to get the orderId, and set razorpay details. "convertRupeeToPaise" is used to convert into paise and store the amount.
 
-- All the transaction details will be saved in razorpay transaction section of the razorpay dashboard. Fields that will be saved there are:Payment Id, Razorpay Order Id, Amount, Email, Contact, Created At, Status(failed or captured)
+- All the transaction details will be saved in razorpay transaction section of the razorpay dashboard. Fields that will be saved there are:-> Payment Id, Razorpay Order Id, Amount, Email, Contact, Created At, Status(failed or captured)
