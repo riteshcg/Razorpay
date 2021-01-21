@@ -37,7 +37,7 @@ Notes, imageurl, merchant name, purchase description, customer anme, customer em
 - After hitting this api -"http://localhost:8080/razorapp/home" , you will be redirect to form which I have created as "home.html" which is the home page and then you need to submit all your details.
 
 - After that, you need to hit the pay button.
-
+,
 - On pressing the pay button, it will redirect to "razorpay payment gateway", where you need to choose your payment method.
 
 - After choosing the payment method, you need to press pay button and then it will redirect to a page where you will see "success" or "failure"(2 options, since it is in testing mode and not in live mode).
@@ -48,4 +48,4 @@ Notes, imageurl, merchant name, purchase description, customer anme, customer em
 
 - In service class, "createRazorPayOrder" is used to get the order amount and "getRazorPay" is used to get the orderId, and set razorpay details. "convertRupeeToPaise" is used to convert into paise and store the amount.
 
-- All the transaction details will be saved in razorpay transaction section of the razorpay dashboard. Fields that will be saved there are:
+- All the transaction details will be saved in razorpay transaction section of the razorpay dashboard. Fields that will be saved there are:Payment Id, Razorpay Order Id, Amount, Email, Contact, Created At, Status(failed or captured)
