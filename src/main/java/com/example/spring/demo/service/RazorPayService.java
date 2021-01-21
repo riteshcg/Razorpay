@@ -32,8 +32,7 @@ public class RazorPayService {
 	private String Secret_key = "1uVy3YSaC20QogGnwGZbIC4l"; // Secret_Key from razorpay sandbox account
 
 	public RazorPayService(String Secret_Id, String Secret_key) { // Parametrized constructor used to initialize secret key and secret id
-																	
-
+																
 		this.Secret_Id = Secret_Id;
 		this.Secret_key = Secret_key;
 	}
